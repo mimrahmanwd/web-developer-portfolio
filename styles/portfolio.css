@@ -66,12 +66,12 @@ nav a{
 }
 
 /* header related style  */
- .header{
-    background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
- }
+    background-position: bottom right , top left;
+  }
 
  .banner{
     padding: 30px 30px 0px 150px;
@@ -79,7 +79,7 @@ nav a{
     align-items: center;
     justify-content: space-between;
  }
- .banner-contant{
+ .banner-content{
     max-width: 500px;
  }
 
@@ -87,7 +87,7 @@ nav a{
     width: 500px;
  }
 
- .banner-gretting{
+ .banner-greeting{
     font-size: 45px;
     color: #474747;
     margin-bottom:0;
